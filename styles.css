@@ -1,0 +1,124 @@
+.header {
+}
+/* Define common styles for body and html elements */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(at center, #118BB2,#083C4C);  /* Background color */
+}
+
+/* Define font and heading styles for the body */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+/* Horizontal rule style */
+hr {
+  border: 1px solid #000; /* Black border */
+}
+
+/* Navigation styles */
+nav {
+  text-align: center;
+  background-color: #118ab2; /* Navigation background color */
+  padding: 10px;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation-list li a {
+  color: #ffd166; /* Navigation link color */
+  text-decoration: none;
+}
+
+.navigation-list li a:hover {
+  color: #ef476f; /* Navigation link color on hover */
+}
+
+/* Header image styles */
+#header-image-menu img {
+  width: 100%; /* Image width */
+  height: automatic;
+  filter: blur(1px) brightness(50%); /* Image filter */
+}
+
+/* Container styles */
+.container {
+  position: relative;
+  text-align: center;
+  color: #ffd166; /* Text color */
+}
+
+.current-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+}
+
+/* Logo styles */
+#logo img {
+  max-width: 200px; /* Maximum logo width */
+  display: block;
+  margin: 0 auto; /* Center the logo */
+}
+
+/* Form styles */
+.form {
+  position: relative;
+  text-align: center;
+  color: #ffd166; /* Text color */
+}
+
+.movie-table {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+ul {
+  position: relative;
+  text-align: center;
+  color: #ffd166; /* Text color */
+  list-style-type: none;
+}
+
+table,th, td {
+  border: 1px solid black;
+}
+
+th,td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #118ab2;
+}
+.made-by, a{
+	color: #ffd166;
+	text-decoration: none;
+}
